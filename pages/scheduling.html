@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Programación</title>
+  <link rel="stylesheet" href="scheduling.css">
+</head>
+<body>
+  <div class="container">
+    <h1>Programación</h1>
+    <div class="scheduling-section">
+      <input type="datetime-local" id="scheduleDateTime">
+      <select id="playlistType">
+        <option value="own">Playlist Propia</option>
+        <option value="random">Playlist Aleatoria</option>
+      </select>
+      <button id="addSchedule">Añadir a Programación</button>
+      <ul id="schedulesList"></ul>
+    </div>
+  </div>
+  <script src="scheduling.js"></script>
+</body>
+</html>

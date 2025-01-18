@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Configuración</title>
+  <link rel="stylesheet" href="settings.css">
+</head>
+<body>
+  <div class="container">
+    <h1>Configuración</h1>
+
+    <!-- Identificación del Navegador -->
+    <div class="settings-section">
+      <h2>Identificación del Navegador</h2>
+      <input type="text" id="browserIdInput" placeholder="ID del Navegador">
+      <button id="saveBrowserId">Guardar ID</button>
+    </div>
+
+    <!-- Importar/Exportar Configuración -->
+    <div class="settings-section">
+      <h2>Importar/Exportar Configuración</h2>
+      <button id="importSettings">Importar Configuración</button>
+      <button id="exportSettings">Exportar Configuración</button>
+    </div>
+
+    <!-- Limpieza Total -->
+    <div class="settings-section">
+      <h2>Limpieza Total</h2>
+      <button id="resetSettings">Resetear Configuración</button>
+    </div>
+
+    <!-- Notificaciones de Telegram -->
+    <div class="settings-section">
+      <h2>Notificaciones de Telegram</h2>
+      <input type="text" id="telegramToken" placeholder="Token del Bot de Telegram">
+      <input type="text" id="telegramChatId" placeholder="Chat ID">
+      <button id="saveTelegramSettings">Guardar Configuración de Telegram</button>
+      <button id="testTelegram">Enviar Mensaje de Prueba</button>
+    </div>
+  </div>
+  <script src="settings.js"></script>
+</body>
+</html>
